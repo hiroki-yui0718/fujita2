@@ -1,9 +1,17 @@
 Anim #相手から離れる判定
-DestroyUnit #HP関係(弾が当たった時の判定)
-
+DestroyUnit #HP関係(弾が当たった時の判定) + 発射エフェクト
 ShotBullet #球自動発射判定
 HitBullet #敵・障害物に当たった時球の消滅
 SkillRange #球の物理演算
+BaseScript #拠点
+
+
+
+Fire #撃破エフェクト
+DemonCore #デーモンコア挙動
+DemonDamage #デーモンコアダメージ
+HitDemon #デーモンコアエフェクト
+
 
 
 NetworkManager #ネットワーク
@@ -13,7 +21,14 @@ BattleUnitData #HPと攻撃力のデータ
 RoboData #ロボ詳細データ
 weponDataBase #武器のデータ
 skillDataBase #スキルの詳細データ
-unitDataBase #スキル小データ　
-soubi　#何もなし
+unitDataBase #スキル小データ
+
 
 サーバーに上げないと機能できない
+
+AttackSword　#剣の挙動　
+soubi　#何もなし
+PhotonManager.cs
+PhotonStatus.cs
+ScoreScript.cs
+ScoreSync.cs
